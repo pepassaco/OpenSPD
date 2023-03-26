@@ -1,0 +1,77 @@
+Circuit: * C:\Users\quita\Documents\PAD_2023.02.01 Qumkuat SS22\OpenSPD\simulations\OpenSPD_LTSpice.asc
+
+Limiting rise time of source v3 to 5e-10
+Limiting fall time of source v3 to 5e-10
+WARNING: Less than two connections to node u3:b:219.  This node is used by e:u3:b:5.
+WARNING: Less than two connections to node u3:b:220.  This node is used by r:u3:b:1.
+WARNING: Less than two connections to node u4:b:219.  This node is used by e:u4:b:5.
+WARNING: Less than two connections to node u4:b:220.  This node is used by r:u4:b:1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000247786
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000222612
+vernier = 0.0833333
+vernier = 0.111111
+Gmin = 0.000180532
+vernier = 0.148148
+Gmin = 0.000130074
+vernier = 0.197531
+vernier = 0.263374
+Gmin = 7.54769e-05
+vernier = 0.351165
+vernier = 0.46822
+Gmin = 3.21369e-05
+vernier = 0.624294
+Gmin = 8.64556e-06
+vernier = 0.832392
+vernier = 0.416196
+vernier = 0.208098
+vernier = 0.104049
+vernier = 0.0520245
+Gmin = 7.61358e-06
+vernier = 0.0260122
+vernier = 0.0130061
+vernier = 0.00650306
+vernier = 0.00325153
+vernier = 0.00162576
+Gmin = 7.53987e-06
+vernier = 0.000812882
+vernier = 0.000406441
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Sun Mar 26 22:27:26 2023
+Total elapsed time: 1.903 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7881
+traniter = 4670
+tranpoints = 1618
+accept = 1381
+rejected = 237
+matrix size = 321
+fillins = 518
+solver = Normal
+Avg thread counts: 3.0/1.2/1.2/1.1
+Matrix Compiler1: 35.19 KB object code size  19.5/13.1/[4.4]
+Matrix Compiler2: off  [6.7]/8.4/7.1
+
