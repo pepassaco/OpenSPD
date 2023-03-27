@@ -2,8 +2,8 @@
 %TF.CreationDate,2023-03-27T13:01:22+02:00*%
 %TF.ProjectId,OpenSPD_PCB,4f70656e-5350-4445-9f50-43422e6b6963,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Soldermask,Bot*%
-%TF.FilePolarity,Negative*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
 G04 Created by KiCad (PCBNEW 7.0.1) date 2023-03-27 13:01:22*
@@ -40,6 +40,7 @@ G04 Aperture macros list end*
 %ADD18RoundRect,0.250000X0.350000X0.625000X-0.350000X0.625000X-0.350000X-0.625000X0.350000X-0.625000X0*%
 %ADD19O,1.200000X1.750000*%
 G04 APERTURE END LIST*
+%LPC*%
 D10*
 %TO.C,H2*%
 X181225000Y-65750000D03*
